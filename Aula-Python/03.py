@@ -63,7 +63,8 @@ print('Número de letras nesse nome :' ,len(nome))
 '''
 
 print('Qual a temperatura em Fahrenheint ?')
-TempEmFahreneit = int(input())
+TempEmFahrenheit = int(input())
+Conv_F_para_C = ((TempEmFahrenheit-32)*5/9)
 
 
 
