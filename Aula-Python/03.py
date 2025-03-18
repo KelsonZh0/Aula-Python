@@ -65,6 +65,12 @@ print('Número de letras nesse nome :' ,len(nome))
 print('Qual a temperatura em Fahrenheint ?')
 TempEmFahrenheit = int(input())
 Conv_F_para_C = ((TempEmFahrenheit-32)*5/9)
+print('A temperatura em Celsius é ', Conv_F_para_C)
+
+print('Qual a temperatura em Celsius ?')
+TempEmCelsius = int(input())
+Conv_C_para_F = ((TempEmCelsius*9/5)+32)
+print('A temperatura em Fahrenheit é ', Conv_C_para_F)
 
 
 
