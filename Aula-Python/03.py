@@ -83,3 +83,35 @@ print('A temperatura em Fahrenheit é ', Conv_C_para_F)
     (b) Peça ao usuário que informe o preço total do terreno.
     Calcule e mostre qual o preço por metro quadrado.
 '''
+print('Qual o comprimento do terreno ?')
+Comp = int(input())
+
+print('Qual a largura do terreno ?')
+Larg = int(input())
+
+Area_total = Comp*Larg
+print('A área total do terreno é', Area_total)
+
+print('Qual o valor total do terreno?')
+Valor_terreno = int(input())
+
+Valor_Metro2 = (Valor_terreno/200)
+print('O preço por metro quadrado é de R$', Valor_Metro2)
+
+
+
+'''7. exercício bônus.
+    Pergunte o ano em que o usuário nasceu.
+    (a) Calcule e informe sua idade
+
+    (b) (PRÓXIMA MATÉRIA! COMANDO "if")
+    Se o usuário é menor de idade, imprima uma
+    mensagem dizendo que é necessário obter autorização
+    para usar o sistema.
+'''
+
+print('Em qual ano você nasceu ?')
+ano = int(input())
+idade = (2025-ano)
+if idade < 18: print('Você precisa de uma autorização para usar esse sistema !!!')
+if idade > 18: print('Você está autorizado a usar o sistema')
